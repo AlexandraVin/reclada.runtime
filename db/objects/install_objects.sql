@@ -1,4 +1,14 @@
 \echo Installing objects...
+
+\echo   ... DataSource
+\i datasource/datasource_schema.sql
+
+\echo   ... File
+\i file/file_schema.sql
+
+\echo   ... DataSet
+\i dataset/dataset_schema.sql
+
 \echo   ... Task
 \i task/task_schema.sql
 \i task/task_notifications.sql
@@ -27,3 +37,4 @@
 
 \echo   ... Environment
 \i environment/environment_schema.sql
+
